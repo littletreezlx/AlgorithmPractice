@@ -9,8 +9,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int totalReward = 10;
-        Lesson5_1.get(totalReward, new ArrayList<>());
+        if (new T242().getSolution.isAnagram("a","aa")){
+            System.out.println("T");
+        }else {
+            System.out.println("F");
+
+        }
 
     }
 

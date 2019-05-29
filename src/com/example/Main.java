@@ -1,21 +1,16 @@
 package com.example;
 
-import com.example.linkedlist.MyStack;
-import com.example.linkedlist.Solution;
 
-import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        if (new T242().getSolution.isAnagram("a","aa")){
-            System.out.println("T");
-        }else {
-            System.out.println("F");
+        int min = Integer.MIN_VALUE;
+        int[] array = {6,2,8,0,4,7,9,min,min,3,5};
+        TreeNode treeNode = TreeUtil.arrayToTreeNode(array);
 
-        }
-
+        System.out.println(treeNode);
     }
 
 }

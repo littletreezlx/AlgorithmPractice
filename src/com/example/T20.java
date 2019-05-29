@@ -1,9 +1,10 @@
-package com.example.linkedlist;
+package com.example;
 
 
 import java.util.Stack;
 
-public class Solution {
+//Valid Parentheses
+public class T20 {
 
     public boolean isValid(String s) {
 

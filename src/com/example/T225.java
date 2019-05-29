@@ -1,18 +1,18 @@
-package com.example.linkedlist;
+package com.example;
 
 
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 
-
-public class MyStack {
+//Implement Stack using Queues
+public class T225 {
 
     private Queue<Integer> inputQ;
     private Queue<Integer> outputQ;
     private int size = 0;
 
     /** Initialize your data structure here. */
-    public MyStack() {
+    public T225() {
         inputQ = new ArrayBlockingQueue<Integer>(20);
         outputQ = new ArrayBlockingQueue<Integer>(20);
 

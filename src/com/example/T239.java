@@ -4,19 +4,19 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-public class T239 {
-    public static void main(String[] args) {
-        int[] a = {1, -1};
-        int[] b = new Solution().maxSlidingWindow(a, 1);
-        System.out.println(Arrays.toString(b));
-
-    }
-}
 
 // 错很多次- -边界条件真重要
 // 用多一个list存储了index数组，来比较最大数在框外的情况。
-class Solution {
-    public int[] maxSlidingWindow(int[] nums, int k) {
+public class T239 {
+
+    public static void main(String[] args) {
+        int[] a = {1, -1};
+        int[] b = maxSlidingWindow(a, 1);
+        System.out.println(Arrays.toString(b));
+
+    }
+
+    public static int[] maxSlidingWindow(int[] nums, int k) {
 
         //fk
         if (nums == null || nums.length == 0 && k <= 0 ){
@@ -43,15 +43,15 @@ class Solution {
 
             if (deque.size() != 0){
                 //大于第一个直接清空
-                 if (nums[index] > nums[deque.peekFirst()]) {
-                     deque.clear();
-                 }
-                 //不大于则按从大到小顺序排列；
-                 else {
-                     while (nums[index] > nums[deque.peekLast()]){
-                         deque.pollLast();
-                     }
-                 }
+                if (nums[index] > nums[deque.peekFirst()]) {
+                    deque.clear();
+                }
+                //不大于则按从大到小顺序排列；
+                else {
+                    while (nums[index] > nums[deque.peekLast()]){
+                        deque.pollLast();
+                    }
+                }
             }
 
             deque.addLast(index);

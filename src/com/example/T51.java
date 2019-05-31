@@ -1,6 +1,8 @@
 package com.example;
 
 
+import com.sun.rowset.internal.Row;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -12,8 +14,11 @@ N-Queens
 public class T51 {
 
     public static void main(String[] args) {
-    }
 
+        List<List<String>> list = new T51().solveNQueens(4);
+
+        System.out.println(list);
+    }
 
 
     private int n;
@@ -22,53 +27,44 @@ public class T51 {
     private HashSet<Integer> naSet = new HashSet();
 
 
-
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> result = new ArrayList<>();
         if (n == 0){
             return result;
         }
         this.n = n;
-
-
+        backTrack(0, new String[n], result);
+        return result;
     }
 
 
     public void backTrack(int i, String[] row, List<List<String>> result){
 
-        if (){
-
-        }
-
         for (int j = 0; j < n; j++){
-
             int pie = i + j;
             int na = i - j;
             if (!columnSet.contains(j) && !pieSet.contains(pie) && !naSet.contains(na)){
-
                 columnSet.add(j);
                 pieSet.add(pie);
                 naSet.add(na);
 
-                Arrays.fill(row, ".");
-                row[j] = "Q";
+                char[] chars = new char[n];
+                Arrays.fill(chars, '.');
+                chars[j] = 'Q';
+                String str = new String(chars);
+                row[i] = str;
                 if (i == n -1){
-                    result
+                    result.add(Arrays.asList(row));
                 }
 
-                String s = new String(char[]);
-
-                backTrack(i + 1, );
+                backTrack(i + 1, row, result);
 
                 columnSet.remove(j);
                 pieSet.remove(pie);
                 naSet.remove(na);
 
             }
-
-
         }
-
     }
 
 

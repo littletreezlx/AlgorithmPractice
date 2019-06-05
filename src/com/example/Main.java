@@ -6,11 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int min = Integer.MIN_VALUE;
-        int[] array = {6,2,8,0,4,7,9,min,min,3,5};
-        TreeNode treeNode = TreeUtil.arrayToTreeNode(array);
+        int i = 5;
+        int j = i / 3 * 3;
 
-        System.out.println(treeNode);
+        System.out.println(j);
     }
 
 }
+
+

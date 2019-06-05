@@ -6,36 +6,35 @@ import java.util.HashSet;
 import java.util.List;
 
 /*
-N-Queens
+N-Queens II
  */
-public class T51 {
+public class T52 {
 
     public static void main(String[] args) {
 
-        List<List<String>> list = new T51().solveNQueens(4);
 
-        System.out.println(list);
     }
 
 
     private int n;
+    private int res = 0;
+
     private HashSet<Integer> columnSet = new HashSet();
     private HashSet<Integer> pieSet = new HashSet();
     private HashSet<Integer> naSet = new HashSet();
 
 
-    public List<List<String>> solveNQueens(int n) {
-        List<List<String>> result = new ArrayList<>();
+    public int totalNQueens(int n) {
         if (n == 0){
-            return result;
+            return 0;
         }
         this.n = n;
-        backTrack(0, new String[n], result);
-        return result;
+        backTrack(0);
+        return res;
     }
 
 
-    public void backTrack(int i, String[] row, List<List<String>> result){
+    public void backTrack(int i){
 
         for (int j = 0; j < n; j++){
             int pie = i + j;
@@ -45,20 +44,11 @@ public class T51 {
                 pieSet.add(pie);
                 naSet.add(na);
 
-                char[] chars = new char[n];
-                Arrays.fill(chars, '.');
-                chars[j] = 'Q';
-                String str = new String(chars);
-                row[i] = str;
                 if (i == n -1){
-                    List<String> list = new ArrayList<>();
-                    for (int k = 0; k < row.length; k++){
-                        list.add(row[k]);
-                    }
-                    result.add(list);
+                    res ++;
                 }
 
-                backTrack(i + 1, row, result);
+                backTrack(i + 1);
 
                 columnSet.remove(j);
                 pieSet.remove(pie);

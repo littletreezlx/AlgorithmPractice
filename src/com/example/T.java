@@ -5,9 +5,10 @@ package com.example;
 Two Sums
 
  */
-public class T {
+class T {
 
     public static void main(String[] args) {
+        int[] array = {1,2,3};
     }
 
 

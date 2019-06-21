@@ -1,8 +1,8 @@
-package com.example;
+package com.example.dp;
 
 
 /*
-Two Sums
+Best Time to Buy and Sell Stock II
 
  */
 public class T122 {

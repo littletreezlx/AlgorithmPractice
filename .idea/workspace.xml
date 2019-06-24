@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18f90e6-d391-49d0-875d-f2eb33a19007" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/dp/T120.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/dp/T121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/dp/T122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/dp/T152.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/bitwise/T191.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/bitwise/T191.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/dp/T123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/dp/T123.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,15 +64,28 @@
       <file leaf-file-name="T121.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dp/T121.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="84">
+              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T122.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="T123.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/dp/T123.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T122.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dp/T122.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="Math.java" pinned="false" current-in-tab="false">
@@ -89,15 +97,6 @@
                 <element signature="e#52232#52233#0" expanded="true" />
                 <element signature="e#52271#52272#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T191.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/bitwise/T191.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -149,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/linkedlist/MyStack.java" />
         <option value="$PROJECT_DIR$/src/com/example/linkedlist/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/example/Main2.java" />
         <option value="$PROJECT_DIR$/src/com/example/Lesson5_1.java" />
@@ -200,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/com/example/dp/T152.java" />
         <option value="$PROJECT_DIR$/src/com/example/dp/T121.java" />
         <option value="$PROJECT_DIR$/src/com/example/dp/T122.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dp/T123.java" />
       </list>
     </option>
   </component>
@@ -292,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T152">
+  <component name="RunManager" selected="Application.T123">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Main" />
       <module name="AlgorithmPractice" />
@@ -302,6 +301,16 @@
     </configuration>
     <configuration name="T120" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.dp.T120" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="T123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.dp.T123" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
@@ -330,16 +339,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="T212" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.T212" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -357,18 +356,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.T212" />
       <item itemvalue="Application.T191" />
       <item itemvalue="Application.T120" />
       <item itemvalue="Application.T152" />
+      <item itemvalue="Application.T123" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T123" />
         <item itemvalue="Application.T152" />
         <item itemvalue="Application.T120" />
         <item itemvalue="Application.T191" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.T212" />
       </list>
     </recent_temporary>
   </component>
@@ -399,15 +398,16 @@
       <workItem from="1558074613630" duration="285000" />
       <workItem from="1558317428096" duration="23585000" />
       <workItem from="1558937738833" duration="65265000" />
-      <workItem from="1560323705191" duration="13486000" />
+      <workItem from="1560323705191" duration="20226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123225000" />
+    <option name="totallyTimeSpent" value="129965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -419,11 +419,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32893" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32893" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31473532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31473532" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -478,8 +478,14 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/dp/T123.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -595,13 +601,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/T122.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -920,13 +919,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dp/T121.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="84">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dp/T122.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dp/T123.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

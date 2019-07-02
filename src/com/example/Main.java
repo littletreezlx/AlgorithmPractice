@@ -1,17 +1,21 @@
 package com.example;
 
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        String s = "";
+        Set<List<Integer>> res = new HashSet<>();
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        res.add(list);
+        list.add(2);
+        res.add(list);
 
-        char c = s.charAt(0);
+        System.out.println(res);
     }
 
 

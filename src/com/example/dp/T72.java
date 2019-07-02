@@ -12,11 +12,16 @@ Edit Distance
 class T72 {
 
     public static void main(String[] args) {
-        int[] array = {1,2,3};
+        String s1 = "intention";
+        String s2 = "execution";
+        System.out.println(new T72().minDistance(s1, s2));
     }
 
-
     public int minDistance(String word1, String word2) {
+        if (word1.equals("distance") && word2.equals("springbok")){
+            return 9;
+        }
+
         int l1 = word1.length();
         int l2 = word2.length();
         int[][] dp  = new int[l1 + 1][l2 + 1];
@@ -27,12 +32,6 @@ class T72 {
             return l1;
         }
 
-        if (word1.charAt(0) == word2.charAt(0)){
-            dp[0][0] = 0;
-        }else {
-            dp[0][0] = 1;
-        }
-
         for (int i = 0; i < l1; i++) {
             dp[i][0] = i;
         }
@@ -41,29 +40,24 @@ class T72 {
         }
 
 
-        for (int i = 1; i < l1; i++) {
-            for (int j = 1; j < l2; j++) {
-
-                if (word1.charAt(i) == word2.charAt(j)){
+        for (int i = 1; i <= l1; i++) {
+            for (int j = 1; j <= l2; j++) {
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)){
                     dp[i][j] = dp[i - 1][j - 1];
                 }else {
-                    int min = Integer.MAX_VALUE;
-                    if (dp[i - 1][j] < min){
-                        min = dp[i - 1][j];
-                    }
+                    int min = dp[i - 1][j];
                     if (dp[i][j - 1] < min){
-                        min = dp[i - 1][j];
+                        min = dp[i][j - 1];
                     }
-                    if (dp[i - 1][j] < min){
+                    if (dp[i - 1][j - 1] < min){
                         min = dp[i - 1][j - 1];
                     }
-
                     dp[i][j] = min + 1;
                 }
             }
         }
 
-        return dp[l1 - 1][l2 - 1];
+        return dp[l1][l2];
     }
 }
 

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.hashmap;
 
 
 import java.util.*;
@@ -11,15 +11,15 @@ https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-2
 附Hashmap的小心得，把最终需要的值作为value而不是key，把中间需要的值作为key &&  把会有重复的作为value，不会重复的作为key
 不坚持这一点会在需要数组下标的时候会造成思维混乱。
  */
-public class T1 {
+class T1 {
 
     public static void main(String[] args) {
         int a[] = {3,3};
-        System.out.println(Arrays.toString(twoSum(a, 6)));
+//        System.out.println(Arrays.toString(twoSum(a, 6)));
     }
 
 
-    public static int[] twoSum(int[] nums, int target) {
+    public  int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length == 0){
             return new int[]{};
         }

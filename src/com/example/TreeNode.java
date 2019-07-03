@@ -1,14 +1,18 @@
 package com.example;
 
+import java.util.Set;
+
 public  class TreeNode {
 
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
-    TreeNode father;
+    public TreeNode father;
 
-    TreeNode(int x) {
+    public Set<TreeNode> children;
+
+    public TreeNode(int x) {
         val = x;
     }
 

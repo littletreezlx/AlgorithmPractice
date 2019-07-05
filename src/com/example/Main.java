@@ -8,14 +8,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Set<List<Integer>> res = new HashSet<>();
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        res.add(list);
-        list.add(2);
-        res.add(list);
 
-        System.out.println(res);
+        HashMap map = new HashMap();
+        map.put(1, 2);
+
+        map.put(1, 3);
+
+
+        int j = 0;
     }
 
 

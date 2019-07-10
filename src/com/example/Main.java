@@ -1,21 +1,20 @@
 package com.example;
 
 
-import java.util.*;
-import java.util.concurrent.*;
+import java.util.Vector;
 
 public class Main {
 
     public static void main(String[] args) {
+        Vector vector = new Vector();
+
+        vector.add(1);
+        vector.add(1);
 
 
-        HashMap map = new HashMap();
-        map.put(1, 2);
-
-        map.put(1, 3);
+        vector.contains(1);
 
 
-        int j = 0;
     }
 
 

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18f90e6-d391-49d0-875d-f2eb33a19007" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/linkedlist/T234.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/T581.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/dp/T198.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/linkedlist/T234.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/linkedlist/T234.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/linkedlist/T234.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/linkedlist/T234.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +26,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="T234.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="T234.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/linkedlist/T234.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="174">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T198.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/dp/T198.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T581.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/T581.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -74,9 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/array/T1002.java" />
-        <option value="$PROJECT_DIR$/src/com/example/T213.java" />
-        <option value="$PROJECT_DIR$/src/com/example/T208.java" />
         <option value="$PROJECT_DIR$/src/com/example/Trie.java" />
         <option value="$PROJECT_DIR$/src/com/example/Test.java" />
         <option value="$PROJECT_DIR$/src/com/example/T212.java" />
@@ -125,6 +142,9 @@
         <option value="$PROJECT_DIR$/src/com/example/tree/T543.java" />
         <option value="$PROJECT_DIR$/src/com/example/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/example/linkedlist/T234.java" />
+        <option value="$PROJECT_DIR$/src/com/example/T198.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dp/T198.java" />
+        <option value="$PROJECT_DIR$/src/com/example/T581.java" />
       </list>
     </option>
   </component>
@@ -172,41 +192,6 @@
             </path>
             <path>
               <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -223,9 +208,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example" />
       <recent name="com.example.linkedlist" />
       <recent name="com.example.tree" />
-      <recent name="com.example" />
       <recent name="com.example.hashmap" />
       <recent name="com.example.stack" />
     </key>
@@ -246,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T234">
+  <component name="RunManager" selected="Application.T581">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Main" />
       <module name="AlgorithmPractice" />
@@ -277,22 +262,22 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="T437" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.tree.T437" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="T438" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.hashmap.T438" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="T581" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.T581" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,18 +299,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.T437" />
       <item itemvalue="Application.T438" />
       <item itemvalue="Application.T160" />
       <item itemvalue="Application.T234" />
+      <item itemvalue="Application.T581" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T581" />
         <item itemvalue="Application.T234" />
         <item itemvalue="Application.T160" />
         <item itemvalue="Application.T438" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.T437" />
       </list>
     </recent_temporary>
   </component>
@@ -358,12 +343,12 @@
       <workItem from="1558937738833" duration="65265000" />
       <workItem from="1560323705191" duration="62539000" />
       <workItem from="1562206541774" duration="24752000" />
-      <workItem from="1562814547569" duration="14857000" />
+      <workItem from="1562814547569" duration="27480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211887000" />
+    <option name="totallyTimeSpent" value="224510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -379,7 +364,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32893" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32893" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -391,7 +376,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3989432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,21 +479,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/example/linkedlist/T234.java</url>
-          <line>31</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/example/linkedlist/T234.java</url>
-          <line>49</line>
+          <line>56</line>
           <properties />
-          <option name="timeStamp" value="50" />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/T581.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="51" />
+      <option name="time" value="54" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -554,20 +545,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/dp/T121.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dp/T122.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dp/T123.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -945,8 +922,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/linkedlist/T234.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="174">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dp/T198.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/T581.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>

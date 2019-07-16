@@ -6,6 +6,8 @@ import com.example.ListNode;
 /*
 Palindrome Linked List
 
+好难- -
+反转链表pre用null，小心产生循环
 
 
  */
@@ -19,7 +21,7 @@ class T234 {
 //        l.addNext(3);
 //        l.addNext(2);
 
-        int[] array = {1,2,3,2,1};
+        int[] array = {1,1};
         ListNode l = new ListNode(array);
 
         new T234().isPalindrome(l);
@@ -32,31 +34,32 @@ class T234 {
         if (head == null || head.next == null){
             return true;
         }
-        ListNode slow = head, fast = head, first = head;
-        boolean isOdd = false;
+        ListNode slow = head, fast = head;
         while (fast.next!= null && fast.next.next != null){
             fast = fast.next.next;
-            slow = first.next;
-
-            first.next = slow.next;
-            slow.next = first;
-        }
-        if (fast.next == null){
-            isOdd = true;
-        }else {
-            isOdd = false;
-        }
-
-        first = first.next;
-        if (isOdd){
             slow = slow.next;
         }
+        //奇偶
+        slow = slow.next;
+        if (fast.next != null){
+            fast = fast.next;
+        }
 
-        while (first.next != null){
-            if (slow.val != first.val){
+        ListNode pre = null, cur = slow;
+        while (cur != null){
+            ListNode temp = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = temp;
+        }
+
+
+        while (fast != null){
+            if (fast.val != head.val){
                 return false;
             }
-            first = first.next;
+            fast = fast.next;
+            head = head.next;
         }
         return true;
     }

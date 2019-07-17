@@ -1,4 +1,4 @@
-package com.example;
+package com.example.array;
 
 
 /*
@@ -8,7 +8,7 @@ Shortest Unsorted Continuous Subarray
 class T581 {
 
     public static void main(String[] args) {
-        int[] array = {2,1};
+        int[] array = {2,6,4,8,10,9,15};
         System.out.println(new T581().findUnsortedSubarray(array));
     }
 
@@ -20,7 +20,7 @@ class T581 {
             if (i > 0 && cur < nums[i - 1]){
                 if (minIndex == -1 || cur < nums[minIndex]){
                     for (int j = 0; j < nums.length - 1; j++) {
-                        if (cur <= nums[j] && cur < nums[j + 1]){
+                        if (cur < nums[j]){
                             minIndex = j;
                             break;
                         }
@@ -31,7 +31,7 @@ class T581 {
             if (i < nums.length - 1 && cur > nums[i + 1]) {
                 if (maxIndex == -1 || cur > nums[maxIndex]){
                     for (int j = nums.length - 1; j > 0; j--) {
-                        if (cur >= nums[j] && cur > nums[j - 1]){
+                        if (cur > nums[j]){
                             maxIndex = j;
                             break;
                         }

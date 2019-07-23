@@ -1,7 +1,7 @@
 package com.example.tree;
 
 
-import com.example.TreeNode;
+import com.example.data_structure.TreeNode;
 
 /*
 Two Sums

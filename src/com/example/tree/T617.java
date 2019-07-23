@@ -1,9 +1,7 @@
 package com.example.tree;
 
 
-import com.example.TreeNode;
-
-import java.util.Set;
+import com.example.data_structure.TreeNode;
 
 /*
 Merge Two Binary Trees

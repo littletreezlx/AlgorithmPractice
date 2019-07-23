@@ -1,9 +1,7 @@
 package com.example.tree;
 
 
-import com.example.TreeNode;
-
-import java.util.Stack;
+import com.example.data_structure.TreeNode;
 
 /*
 Symmetric Tree

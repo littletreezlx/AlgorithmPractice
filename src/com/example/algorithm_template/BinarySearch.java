@@ -1,4 +1,4 @@
-package com.example.template;
+package com.example.algorithm_template;
 
 public class BinarySearch {
 

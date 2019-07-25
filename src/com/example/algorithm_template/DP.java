@@ -1,6 +1,4 @@
-package com.example.template;
-
-import sun.misc.FpUtils;
+package com.example.algorithm_template;
 
 public class DP {
 

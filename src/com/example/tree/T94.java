@@ -1,10 +1,6 @@
 package com.example.tree;
 
 
-import com.example.data_structure.TreeNode;
-
-import java.util.List;
-
 /*
 Binary Tree Inorder Traversal
  */
@@ -15,8 +11,8 @@ class T94 {
     }
 
 
-    public List<Integer> inorderTraversal(TreeNode root) {
-
-    }
+//    public List<Integer> inorderTraversal(TreeNode root) {
+//
+//    }
 }
 

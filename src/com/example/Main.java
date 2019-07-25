@@ -1,19 +1,17 @@
 package com.example;
 
 
-import java.util.Vector;
-
 public class Main {
 
     public static void main(String[] args) {
-        Vector vector = new Vector();
-
-        vector.add(1);
-        vector.add(1);
 
 
-        vector.contains(1);
+        int a = Integer.MAX_VALUE;
+        int b = Integer.MIN_VALUE;
 
+
+
+        System.out.println(a + "___" +b);
 
     }
 

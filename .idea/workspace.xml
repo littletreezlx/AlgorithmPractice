@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a245a1-245c-4e1f-88e4-f32bf463f317" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/T13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/binary_search/T35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/math/T7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/math/T9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/string/T38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/T67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/array/T26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/math/T66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/string/T28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/string/T59.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/Lesson5_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T102.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T104.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T111.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T169.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T225.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T232.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T235.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T236.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T239.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T242.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T50.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T51.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T703$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T703.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/T98.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/TreeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/template/BFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/template/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/template/DFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/template/DP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/template/Recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T101.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T101.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T226.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T226.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T437.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T437.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T538.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T538.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T543.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T543.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T617.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/com/example/tree/T617.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/template/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/algorithm_template/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/template/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/algorithm_template/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/template/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/algorithm_template/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/template/DP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/algorithm_template/DP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/template/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/algorithm_template/Recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/tree/T94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/tree/T94.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/T13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/math/T13.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,51 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/tree/T94.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="15" column="7" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/string/T38.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/binary_search/T35.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/math/T7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/algorithm_template/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
@@ -148,11 +65,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/T13.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/math/T13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="189">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/string/T59.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/string/T28.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/array/T26.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/math/T66.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/T67.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -191,16 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/array/T448.java" />
-        <option value="$PROJECT_DIR$/src/com/example/stack/T155.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tree/T101.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tree/T437.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tree/T538.java" />
-        <option value="$PROJECT_DIR$/src/com/example/hashmap/T438.java" />
-        <option value="$PROJECT_DIR$/src/com/example/T53.java" />
-        <option value="$PROJECT_DIR$/src/com/example/dp/T53.java" />
-        <option value="$PROJECT_DIR$/src/com/example/linkedlist/T160.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tree/T543.java" />
         <option value="$PROJECT_DIR$/src/com/example/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/example/linkedlist/T234.java" />
         <option value="$PROJECT_DIR$/src/com/example/T198.java" />
@@ -242,6 +194,16 @@
         <option value="$PROJECT_DIR$/src/com/example/T9.java" />
         <option value="$PROJECT_DIR$/src/com/example/math/T9.java" />
         <option value="$PROJECT_DIR$/src/com/example/T13.java" />
+        <option value="$PROJECT_DIR$/src/com/example/math/T13.java" />
+        <option value="$PROJECT_DIR$/src/com/example/T59.java" />
+        <option value="$PROJECT_DIR$/src/com/example/string/T59.java" />
+        <option value="$PROJECT_DIR$/src/com/example/T28.java" />
+        <option value="$PROJECT_DIR$/src/com/example/string/T28.java" />
+        <option value="$PROJECT_DIR$/src/com/example/T26.java" />
+        <option value="$PROJECT_DIR$/src/com/example/array/T26.java" />
+        <option value="$PROJECT_DIR$/src/com/example/T66.java" />
+        <option value="$PROJECT_DIR$/src/com/example/math/T66.java" />
+        <option value="$PROJECT_DIR$/src/com/example/T67.java" />
       </list>
     </option>
   </component>
@@ -319,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T9">
+  <component name="RunManager" selected="Application.T67">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Main" />
       <module name="AlgorithmPractice" />
@@ -333,12 +295,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.binary_search.T35" />
+    <configuration name="T28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.string.T28" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.binary_search.*" />
+          <option name="PATTERN" value="com.example.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,12 +308,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.string.T38" />
+    <configuration name="T67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.T67" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.string.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,18 +349,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.T38" />
-      <item itemvalue="Application.T35" />
       <item itemvalue="Application.T7" />
       <item itemvalue="Application.T9" />
+      <item itemvalue="Application.T28" />
+      <item itemvalue="Application.T67" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T67" />
+        <item itemvalue="Application.T28" />
         <item itemvalue="Application.T9" />
         <item itemvalue="Application.T7" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.T35" />
-        <item itemvalue="Application.T38" />
       </list>
     </recent_temporary>
   </component>
@@ -437,16 +399,19 @@
       <workItem from="1564018649421" duration="5555000" />
       <workItem from="1564024226335" duration="68000" />
       <workItem from="1564024841499" duration="1654000" />
+      <workItem from="1564036123151" duration="32000" />
+      <workItem from="1564105949925" duration="8396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259074000" />
+    <option name="totallyTimeSpent" value="267502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -640,6 +605,18 @@
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/string/T28.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/T67.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -691,41 +668,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/recursion/T22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/recursion/T78.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dp/T312.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="19" column="7" selection-start-line="13" selection-start-column="6" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/algorithm_template/Recursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/recursion/T39.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1034,10 +976,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/T13.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/math/T13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state relative-caret-position="189">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/string/T59.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/string/T28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/array/T26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/math/T66.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/T67.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
         </state>
       </provider>
     </entry>

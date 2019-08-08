@@ -17,7 +17,7 @@ public class Main {
 
         int f = (int) d / 3;
 
-        System.out.println(d + "___"   + "___" + k);
+        System.out.println("123".substring(3));
 
     }
 

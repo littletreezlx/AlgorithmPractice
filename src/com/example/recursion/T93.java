@@ -14,6 +14,8 @@ class T93 {
         String s = "101023";
         System.out.println(new T93().restoreIpAddresses(s));
 
+//        Arrays.sort();
+
     }
 
 

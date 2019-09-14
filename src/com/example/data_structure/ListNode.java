@@ -30,4 +30,17 @@ public class ListNode {
         return this;
     }
 
+
+    @Override
+    public String toString(){
+        String res = "" + this.val;
+        ListNode node = this.next;
+
+        while (node != null ){
+            res = res + " -> " +node.val;
+            node = node.next;
+        }
+        return res;
+    }
+
 }

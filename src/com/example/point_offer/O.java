@@ -1,11 +1,11 @@
-package com.example;
+package com.example.point_offer;
 
 
 /*
-Two Sums
+
 
  */
-class T {
+class O {
 
     public static void main(String[] args) {
         int[] array = {1,2,3};

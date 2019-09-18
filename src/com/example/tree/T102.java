@@ -8,6 +8,7 @@ import java.util.List;
 
 /*
 Binary Tree Level Order Traversal
+层序遍历
 bfs + dfs
 
  */
@@ -24,6 +25,7 @@ public class T102 {
             return list;
         }
         dfs(list, root, 1);
+
 
         return list;
     }

@@ -4,22 +4,38 @@ package com.example;
 public class Main {
 
     public static void main(String[] args) {
+        Test  t = new Test(1);
+        System.out.println(t.getI());
+        change(t);
+        System.out.println(t.getI());
 
 
-        double a = 22 / 3.0;
-        double b = 29 / 3.0;
-        double c = 30 / 3.0;
-
-        double k = a + b + c;
-
-        int d = (int) (a + b + c) / 3;
-//        double e = d / 3;
-
-        int f = (int) d / 3;
-
-        System.out.println("123".substring(3));
 
     }
+
+
+
+
+    static void change(Test t){
+        t.setI(9);
+    }
+
+    static class Test{
+        private int i;
+
+        public int getI() {
+            return i;
+        }
+
+        public void setI(int i) {
+            this.i = i;
+        }
+
+        public Test(int i) {
+            this.i = i;
+        }
+    }
+
 
 
 

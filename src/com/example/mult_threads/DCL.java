@@ -2,8 +2,9 @@ package com.example.mult_threads;
 
 public class DCL {
 
+    private  static volatile DCL instance;
 
-    public static volatile DCL instance;
+    private DCL(){}
 
     public static DCL getInstance(){
         if (instance == null){
@@ -15,11 +16,7 @@ public class DCL {
 
         }
         return instance;
-
     }
 
-
-
-
-
 }
+

@@ -29,6 +29,8 @@ public class OrderedArray {
                 if (num % 3 == 0 || num == 0){
                     synchronized (lock){
                         System.out.println(++num);
+
+                        Thread.yield();
                     }
                 }
             }
